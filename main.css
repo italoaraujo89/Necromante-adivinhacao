@@ -1,0 +1,73 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("/assets/img/bg-mist-green.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-weight: bold;
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(172, 255, 140), rgb(255, 254, 254));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 16px;
+    background: -webkit-linear-gradient(rgb(126, 248, 77), rgb(238, 234, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  button {
+    border-radius: 10px;
+  }
+  .page-logo {
+    width: 200px;
+  }
+   .resultado {
+    font-size: 16px;
+    background: -webkit-linear-gradient(rgb(126, 248, 77), rgb(238, 234, 234));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }    
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
